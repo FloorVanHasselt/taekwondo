@@ -1,0 +1,198 @@
+body {
+    font-family: helvetica;
+    font-size: 15px;
+    line-height: 1.3;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #2d2d2d;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#mijnnaam{
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  margin-left: 5%;
+  font-size: 1.3em;
+  font-family: helvetica;
+}
+
+#naam{
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    background-size: cover;
+    color: #333;
+}
+
+
+#BG1{
+   background-image: url("BG3.jpg");
+   width: 100vw;
+   height: 100vh;
+   background-position: right;
+   background-size: cover;
+  }
+
+  #BG2{
+     background-image: url("BG2.jpg");
+     width: 100vw;
+     height: 100vh;
+     background-position: right;
+     background-size: cover;
+    }
+
+h1 {
+    font-size: 3em;
+    margin-top: 35vh;
+    color: white;
+    border: 3px solid white;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#p2{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+
+#over{
+  width: 50%;
+  height: 500px;
+  line-height: 1.5;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+
+#grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 100px;
+}
+
+.mijngrid {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+#overMij{
+  padding: 40px;
+  padding-top: 20px;
+  padding-right: 80px;
+}
+
+#BG3{
+   background-image: url("Afb1_BW.jpg");
+   width: 100%;
+   height: auto;
+   background-position: center;
+   background-repeat: no-repeat;
+  }
+
+#MijnVideos{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ padding: 10px;
+}
+
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#MijnVideos p{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+@media(max-width: 600px){
+  h1{
+    font-size: 5em;
+    margin-top: 100px;
+  }
+}
+
+@media(max-width:420px){
+  li{
+    float: none;
+  }
+  #mijnnaam{
+    float: none;
+  }
+  h1{
+    font-size: 4em;
+    margin-top: 100px;
+  }
+  h2{
+    margin-top: 50px;
+  }
+}
